@@ -17,8 +17,13 @@ namespace UpSchoolWebAPI.Controllers
 			var values = context.Categories.ToList();
 			return Ok(values);
 		}
-
-		[HttpPost]
+        [HttpGet("{id}")]
+        public IActionResult GetCategoryById(int id)
+        {
+            var values = context.Categories.FirstOrDefault(x=>x.CategoryID==id);
+            return Ok(values);
+        }
+        [HttpPost]
 		public IActionResult CategoryAdd(Category category)
 		{
 			var value = context.Categories.Add(category);

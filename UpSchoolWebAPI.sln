@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpSchoolWebAPI", "UpSchoolWebAPI\UpSchoolWebAPI.csproj", "{DF036272-60DD-498B-BA3F-C3D3576B52D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpSchoolWebAPI", "UpSchoolWebAPI\UpSchoolWebAPI.csproj", "{DF036272-60DD-498B-BA3F-C3D3576B52D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UpSchoolWebAPIProject", "UpSchoolWebAPIProject", "{3B8D43C4-FA44-4838-8D0D-EF31F9C4783B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF036272-60DD-498B-BA3F-C3D3576B52D3} = {3B8D43C4-FA44-4838-8D0D-EF31F9C4783B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8F60F6FB-8D82-4656-AC88-5F67754210B4}
